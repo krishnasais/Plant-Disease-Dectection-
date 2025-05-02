@@ -62,21 +62,35 @@ To develop an AI model capable of accurately detecting and classifying plant dis
 ---
 
 ## 📁 Project Structure
-
 plant-disease-detection/
 │
-├── data/
-│ ├── train/
-│ ├── test/
-│ └── validation/
-├── notebooks/
-│ └── plant_disease_detection.ipynb
-├── models/
-│ └── logistic_regression_model.pkl
-├── utils/
-│ └── preprocessing.py
-├── requirements.txt
-└── README.md
+├── 📁 data/                            # Raw and preprocessed image data
+│   ├── train/
+│   ├── test/
+│   └── validation/
+│
+├── 📁 notebooks/                       # Jupyter notebooks for EDA and modeling
+│   └── plant_disease_detection.ipynb
+│
+├── 📁 models/                          # Saved model files (e.g., pickle, joblib)
+│   └── logistic_regression_model.pkl
+│
+├── 📁 utils/                           # Helper scripts
+│   ├── preprocessing.py               # Image loading, resizing, flattening
+│   └── metrics.py                     # Custom metric calculations (optional)
+│
+├── 📁 results/                         # Plots, confusion matrix, reports
+│   ├── confusion_matrix.png
+│   └── classification_report.txt
+│
+├── 📁 app/                             # Optional: Web app code for deployment
+│   ├── app.py                         # Flask or Streamlit app
+│   └── templates/                     # HTML files (for Flask)
+│
+├── requirements.txt                   # Python dependencies
+├── logistic_regression.py             # Core model training script (optional)
+├── README.md                          # Project documentation
+└── .gitignore                         # Ignore datasets, models, etc.
 
 
 ---
@@ -87,4 +101,16 @@ plant-disease-detection/
    ```bash
    git clone https://github.com/<your-username>/plant-disease-detection.git
    cd plant-disease-detection
+   cd plant-disease-detection
+   pip install -r requirements.txt
+   python predict.py
+
+## 👥 Team Members
+
+- **<KRISHNA MANIKANTA >**   
+- **<BHARGAV RAM>** 
+
+
+
+
 
