@@ -29,18 +29,6 @@ To develop an AI model capable of accurately detecting and classifying plant dis
 - Pandas
 - Scikit-learn
 - OpenCV
-- Matplotlib / Seaborn
-- Jupyter Notebook
-
----
-
-## 🧹 Data Preprocessing
-
-- **Image Resizing:** All images resized to a uniform size (e.g., 128x128 pixels).
-- **Grayscale Conversion:** Converted RGB images to grayscale to simplify processing.
-- **Flattening:** Transformed 2D image arrays into 1D feature vectors.
-- **Normalization:** Scaled pixel values to a range of 0 to 1.
-- **Label Encoding:** Converted class labels to numerical format.
 
 ---
 
