@@ -95,8 +95,8 @@ plant-disease-detection/
 
 ## 👥 Team Members
 
-- **KRISHNA MANIKANTA **   
-- **BHARGAV RAM ** 
+- KRISHNA MANIKANTA   
+- BHARGAV RAM  
 
 
 
